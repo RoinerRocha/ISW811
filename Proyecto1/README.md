@@ -176,4 +176,23 @@ Tambien se le agregó un enlace en la parte inferior
 
 ## Capitulo 8
 
+Para este capitulo se modificó las rutas en el archivo de "web" de una forma eficaz para que si en el enlace colocamos el nombre de nuestra pagina, este aparezca, en cambio si no existe nos manda a la pagina principal
+
+
+![Imagen](../Proyecto1/images/video8/imagen41.PNG  "Código")
+
+
+Para que la anterior configuración de ruta funcione, se crearon 3 paginas html diferentes en un nuevo folder llamado posts, los cuales los llama la pagina de post.blade.php con el siguiente código
+
+![Imagen](../Proyecto1/images/video8/imagen42.PNG  "Nuevas paginas")
+
+![Imagen](../Proyecto1/images/video8/imagen43.PNG  "Nuevas paginas")
+
+Una vez realizado y creado los cambios, es importante asegurarse que todo se encuentre bien escrito y ver que funcione, para esto agregamos un poco de información a las nuevas paginas html y comprobamos el funcionamiento
+
+![Imagen](../Proyecto1/images/video8/imagen44.PNG  "Nuevas paginas")
+
+![Imagen](../Proyecto1/images/video8/imagen45.PNG  "Nuevas paginas")
+
+
 
