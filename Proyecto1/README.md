@@ -174,6 +174,8 @@ Tambien se le agregó un enlace en la parte inferior
 
 
 
+
+
 ## Capitulo 8
 
 Para este capitulo se modificó las rutas en el archivo de "web" de una forma eficaz para que si en el enlace colocamos el nombre de nuestra pagina, este aparezca, en cambio si no existe nos manda a la pagina principal
@@ -190,9 +192,25 @@ Para que la anterior configuración de ruta funcione, se crearon 3 paginas html 
 
 Una vez realizado y creado los cambios, es importante asegurarse que todo se encuentre bien escrito y ver que funcione, para esto agregamos un poco de información a las nuevas paginas html y comprobamos el funcionamiento
 
-![Imagen](../Proyecto1/images/video8/imagen44.PNG  "Nuevas paginas")
+![Imagen](../Proyecto1/images/video8/imagen44.PNG  "Código")
 
-![Imagen](../Proyecto1/images/video8/imagen45.PNG  "Nuevas paginas")
+![Imagen](../Proyecto1/images/video8/imagen45.PNG  "Resultado")
+
+
+
+
+## Capitulo 9
+
+En este capitulo se realizó una forma mas ordenada que detectar las paginas que se crean que contengan caracteres especiales o números, también se puede ver un código especial "ddd" el cual sirve para ver los fallos en la pagina
+
+![Imagen](../Proyecto1/images/video9/imagen46.PNG  "código")
+
+![Imagen](../Proyecto1/images/video9/imagen47.PNG  "Resultado")
+
+
+## Capitulo 10
+
+
 
 
 
