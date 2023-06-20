@@ -210,6 +210,31 @@ En este capitulo se realizó una forma mas ordenada que detectar las paginas que
 
 ## Capitulo 10
 
+Esta vez lo que se realizó fue el aprendizaje del uso de cache para ver datos guardados cada cierta cantidad de tiempo 
+
+![Imagen](../Proyecto1/images/video10/imagen48.PNG  "Resultado")
+
+![Imagen](../Proyecto1/images/video10/imagen49.PNG  "Código de uso del cache")
+
+
+## Capitulo 11
+
+En este capitulo se usaron las clases en el folder de Models y sobre las nuevas formas de formas de mostrar todos los posts en una misma pagina y no en paginas diferentes con un array
+
+![Imagen](../Proyecto1/images/video11/imagen50.PNG  "Código de la clase Post")
+
+Se configuraron las rutas de forma adecuada para que fueran realizadas con las clases que se crearon anteriormente 
+
+![Imagen](../Proyecto1/images/video11/imagen51.PNG  "Rutas configuradas")
+
+En la view de posts se realizó un foreach gracias a las clases para lograr que las paginas se muestren todas en una misma
+
+![Imagen](../Proyecto1/images/video11/imagen52.PNG  "Código de la pagina")
+
+![Imagen](../Proyecto1/images/video11/imagen53.PNG  "Código Resultado")
+
+
+## Capitulo 12
 
 
 
