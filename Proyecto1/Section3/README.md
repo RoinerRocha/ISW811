@@ -1,8 +1,8 @@
 # Entregable proyecto
 
-## Indice Sección 2
+## Indice Sección 3
 
- Ingresar al [capitulo 5](#capitulo-5)
+ Ingresar al [capitulo 14](#capitulo-14)
 
  Ingresar al [capitulo 6](#capitulo-6)
 
@@ -21,51 +21,13 @@
  Ingresar al [capitulo 13](#capitulo-13)
 
 
- ## capitulo 5
+ ## capitulo 14
 
- ### Iniciar la maquina
- Primero iniciamos la maquina virtual donde tenemos alojados los sitios que creamos
- ```bash
-cd /
-cd D
-cd isw811
-cd VMs
-cd webserver
-vagrant up
-```
+ En este aprendizaje, se logró observar que el la manipulación del html mediante un archivo .blade.php puede llegar a resultar mucho mas sencillo que como si el archivo fuera solo .php, gracias a esto se puede simplificar muchísimo el código a la hora de programar 
 
-### Editar un poco el documento 
-Editar un poco el documento welcome.blade.php con un bold para ver si la pagina funciona correctamente, agregamos la etiqueta "<strong>" en la linea 71.
+ ![Imagen](../Section3/images/video14/imagen1.PNG  "imagen de los cambios")
 
-Antes del cambio
-![Imagen](../Section2/images/video5/imagen1.PNG  "imagen antes del cambio")
-
-Se agrega la etiqueta
-![Imagen](../Section2/images/video5/imagen2.PNG  "imagen de la etiqueta")
-
-
-Visualización después del cambio en la parte de Laracasts
-![Imagen](../Section2/images/video5/imagen3.PNG  "imagen con el cambio")
-
-### Ver las rutas 
-Para poner a prueba las rutas debemos ir al documento web.php y primero debemos comentar la linea 16 hasta la 18 para saber si funciona todo bien.
-
-modificando la ruta
-![Imagen](../Section2/images/video5/imagen4.PNG  "imagen de la modificación ")
-
-Pagina con la ruta modificada
-![Imagen](../Section2/images/video5/imagen5.PNG  "imagen de la pagina modificada")
-
-Y si modificamos las rutas, podemos acceder desde las rutas que modificamos y retornando la vista que deseemos 
-
-![Imagen](../Section2/images/video5/imagen6.PNG  "imagen del código modificado")
-
-![Imagen](../Section2/images/video5/imagen7.PNG  "imagen de laravel modificada")
-
-
-
-
-
+ ![Imagen](../Section3/images/video14/imagen2.PNG  "imagen de los cambios")
 
 
 ## Capitulo 6

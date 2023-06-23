@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <title>Mi blog</title>
 <link rel="stylesheet" href="/app.css">
+<link rel="stylesheet" href="/vendor.css">
 
 <body>
     <article>
-       <h1><?= $post -> title; ?></h1>
+       <h1>{{ $post -> title }}</h1>
        <div>
-            <?= $post ->body; ?>
+            {!! $post ->body !!}
        </div>
     </article>
 
