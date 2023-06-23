@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<title>Mi blog</title>
-<link rel="stylesheet" href="/app.css">
-<link rel="stylesheet" href="/vendor.css">
-
-<body>
+<x-layout>
     <article>
        <h1>{{ $post -> title }}</h1>
        <div>
@@ -11,5 +6,5 @@
        </div>
     </article>
 
-    <a href="/">ir atras</a>
-</body>
+    <a href="/"> Volver</a>
+</x-layout>

@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<title>Mi blog</title>
-<link rel="stylesheet" href="/app.css">
-
-<body>
+<x-layout>
     @foreach ($posts as $post)
-        <article class="{{ $loop ->even ? 'foobar' : '' }}">
+        <article>
             <h1>
-                <a href="/posts/{{ $post -> slug}}">
-                    {{$post ->title }}
+                <a href="/posts/{{ $post ->slug }}">
+                    {{ $post ->title }}
                 </a>
             </h1>
+
             <div>
                 {{ $post -> excerpt}}
             </div>
         </article>
     @endforeach
-</body>
+</x-layout>
