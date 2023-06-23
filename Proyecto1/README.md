@@ -1,5 +1,7 @@
 # Entregable proyecto
 
+Clicking [this link](#)
+
  ## capitulo 5
 
  ### Iniciar la maquina
@@ -236,6 +238,31 @@ En la view de posts se realizó un foreach gracias a las clases para lograr que 
 
 ## Capitulo 12
 
+Es esta ocasión en el archivo "web" se modificó varias veces pero el resultado final del archivo fue que el archivo obtuvo una funcion capaz de encontrar la pagina que solicitamos mediante un "find" que recibe como parametro el "slug" el cual es un metadata el cual contiene nombre de nuestra pagina.
 
+![Imagen](../Proyecto1/images/video12/imagen54.PNG  "Código del archivo web")
+
+El meta data que se encargará de localizar nuestra pagina se encuentra en cada una de los html que creamos. 
+
+
+![Imagen](../Proyecto1/images/video12/imagen55.PNG  "Código del metadata")
+
+El archivo "Post.php" fue el que mas se vio modificado debido a que gracias que es una clase, podemos tratar los titulos y las etiquetas del html como objetos, y asi que la clase navegue y cuando encuentre los datos correspondientes, los muestra
+
+![Imagen](../Proyecto1/images/video12/imagen56.PNG  "Código de Post")
+
+![Imagen](../Proyecto1/images/video12/imagen56-2.PNG  "Código de Post")
+
+
+Por ultimo, las vistas tambien vieron reflejados cambios pero con el único fin de que muestre la información solicitada mediante el código correspondiente 
+
+
+![Imagen](../Proyecto1/images/video12/imagen57.PNG  "Imagen de las vistas")
+
+![Imagen](../Proyecto1/images/video12/imagen58.PNG  "Imagen de las vistas")
+
+
+
+## Capitulo 13
 
 
