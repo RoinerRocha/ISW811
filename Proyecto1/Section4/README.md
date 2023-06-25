@@ -62,7 +62,33 @@ También se realizaron la ejecucion de algunos nuevos comandos cono el "User::fi
 ![Imagen](../Section4/images/video19/imagen16.PNG  "Maquina virtual webserver")
 
 
-![Imagen](../Section4/images/video19/imagen17.PNG  "Maquina virtual webserver")
+![Imagen](../Section4/images/video19/imagen18.PNG  "Maquina virtual webserver")
 
 
-![Imagen](../Section4/images/video19/imagen17.PNG  "Maquina virtual webserver")
+
+
+## Capitulo 20
+
+En esta ocasión se creo una tabla para los posts con su información correspondiente, luego, se eliminaron los html debido a que ya no los íbamos a ocupar gracias a que los post los creamos en la bases de datos, se modificaron las rutas para traer la información de la base de datos y mostrarla en nuestras paginas gracias a que se busca la información en base al id.
+
+![Imagen](../Section4/images/Video20/imagen20.PNG  "Maquina virtual webserver")
+
+![Imagen](../Section4/images/Video20/imagen21.PNG  "Maquina virtual webserver")
+
+### Resultado de la pagina
+
+![Imagen](../Section4/images/Video20/imagen22.PNG  "Pagina")
+
+![Imagen](../Section4/images/Video20/imagen23.PNG  "Pagina")
+
+### Modificación del código de las rutas y las views
+
+![Imagen](../Section4/images/Video20/imagen24.PNG  "Código")
+
+![Imagen](../Section4/images/Video20/imagen25.PNG  "Código")
+
+### Como crear un nuevo model usando la console
+
+![Imagen](../Section4/images/Video20/imagen26.PNG  "Consola")
+
+![Imagen](../Section4/images/Video20/imagen27.PNG  "Consola")
