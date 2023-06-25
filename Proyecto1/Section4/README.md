@@ -92,3 +92,37 @@ En esta ocasión se creo una tabla para los posts con su información correspond
 ![Imagen](../Section4/images/Video20/imagen26.PNG  "Consola")
 
 ![Imagen](../Section4/images/Video20/imagen27.PNG  "Consola")
+
+
+
+
+
+
+## Capitulo 21
+
+En esta ocasión se realizó un arreglo a la estructura del html usando algunos de los comandos que se vieron anteriormente, Es importante corregir el código de las views debido a que si no se hace apropiadamente, el html no se renderizará adecuadamente
+
+###  Agregado de la etiqueta <p> para un mejor espaciado
+
+![Imagen](../Section4/images/video21/imagen28.PNG  "Consola")
+
+### Agregado de la etiqueta strong
+
+![Imagen](../Section4/images/Video21/imagen29.PNG  "Consola")
+
+### Resultado de la pagina
+
+![Imagen](../Section4/images/Video21/imagen30.PNG  "Pagina")
+
+### Configuracion de las vistas 
+Los signos de !! se agregan con el fin de tener un mejor control sobre el html, permitiendo asi que no se produzcan errores como por ejemplo que las etiquetas se vean en nuestra pagina.
+
+
+![Imagen](../Section4/images/Video21/imagen30.PNG  "Pagina")
+
+
+
+## Capitulo 22
+
+
+
