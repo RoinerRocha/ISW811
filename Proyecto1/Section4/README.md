@@ -129,18 +129,45 @@ En esta ocasión se ha logrado insertar de datos de diferentes formas
 ### Forma de fillable
 Insertando todos los datos como si fuera una lista, insertando la casilla de la tabla y su respectiva información, es importante escribir en el código de Post.php los datos que se desean ingresar, debido a que podemos editar información como el id
 
-![Imagen](../Section4/images/Video22/imagen31.PNG  "Pagina")
+![Imagen](../Section4/images/Video22/imagen31.PNG  "Consola")
 
-![Imagen](../Section4/images/Video22/imagen32.PNG  "Pagina")
+![Imagen](../Section4/images/Video22/imagen32.PNG  "código")
 
-![Imagen](../Section4/images/Video22/imagen33.PNG  "Pagina")
+![Imagen](../Section4/images/Video22/imagen33.PNG  "Consola")
 
 ### Forma Guarded
 En esta forma en lugar de añadir los datos que deseamos agregar, añadimos los datos que no se desean añadir, en el siguiente ejemplo se usó el id, como el dato de id ya no se inserta entonces el id será auto incrementado
 
-![Imagen](../Section4/images/Video22/imagen34.PNG  "Pagina")
+![Imagen](../Section4/images/Video22/imagen34.PNG  "código")
 
-![Imagen](../Section4/images/Video22/imagen35.PNG  "Pagina")
+![Imagen](../Section4/images/Video22/imagen35.PNG  "Consola")
+
+
+## Capitulo 23
+
+En esta ocasión se le agregó un "slug" a la base de datos, para que de este modo las paginas ya no sean buscadas por el id sino por el slug, cuando todo se encuentre bien configurado, el slug se mostrará en el url de nuestra pagina
+
+### Configuración del slug en el código
+
+![Imagen](../Section4/images/Video23/imagen36.PNG  "código")
+
+
+![Imagen](../Section4/images/Video23/imagen37.PNG  "código")
+
+### Agregar el slug a la base de datos y hacer que sea buscado por el mismo
+
+![Imagen](../Section4/images/Video23/imagen38.PNG  "código")
+
+
+![Imagen](../Section4/images/Video23/imagen39.PNG  "código")
+
+
+![Imagen](../Section4/images/Video23/imagen40.PNG  "BD")
+
+
+![Imagen](../Section4/images/Video23/imagen41.PNG  "BD")
+
+
 
 
 
