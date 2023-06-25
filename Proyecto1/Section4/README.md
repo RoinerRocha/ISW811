@@ -124,5 +124,23 @@ Los signos de !! se agregan con el fin de tener un mejor control sobre el html, 
 
 ## Capitulo 22
 
+En esta ocasión se ha logrado insertar de datos de diferentes formas
+
+### Forma de fillable
+Insertando todos los datos como si fuera una lista, insertando la casilla de la tabla y su respectiva información, es importante escribir en el código de Post.php los datos que se desean ingresar, debido a que podemos editar información como el id
+
+![Imagen](../Section4/images/Video22/imagen31.PNG  "Pagina")
+
+![Imagen](../Section4/images/Video22/imagen32.PNG  "Pagina")
+
+![Imagen](../Section4/images/Video22/imagen33.PNG  "Pagina")
+
+### Forma Guarded
+En esta forma en lugar de añadir los datos que deseamos agregar, añadimos los datos que no se desean añadir, en el siguiente ejemplo se usó el id, como el dato de id ya no se inserta entonces el id será auto incrementado
+
+![Imagen](../Section4/images/Video22/imagen34.PNG  "Pagina")
+
+![Imagen](../Section4/images/Video22/imagen35.PNG  "Pagina")
+
 
 
