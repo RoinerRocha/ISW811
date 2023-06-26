@@ -22,6 +22,8 @@
 
  Ingresar al [capitulo 26](#capitulo-26)
 
+ Ingresar al [capitulo 27](#capitulo-27)
+
 
  ## Capitulo 17
 
@@ -211,5 +213,109 @@ En las paginas se puede ver que la categoria de heroes es visible para el usuari
 ### Vista del bd
 
 ![Imagen](../Section4/images/Video24/imagen49.PNG  "BD")
+
+
+## Capitulo 25
+
+Para la realización de este ejercicio se agregó un nuevo archivo a la carpeta de models llamado Category para enlazarlo con los posts y asi cuando le demos click a la categoría en nuestra pagina, nos lleve solo a los post con esa categoría
+
+### Configuración de los archivos category y post
+
+![Imagen](../Section4/images/Video25/imagen50.PNG  "código")
+
+![Imagen](../Section4/images/Video25/imagen51.PNG  "código")
+
+
+### Configuración del código de las paginas
+
+![Imagen](../Section4/images/Video25/imagen52.PNG  "código")
+
+![Imagen](../Section4/images/Video25/imagen53.PNG  "código")
+
+![Imagen](../Section4/images/Video25/imagen54.PNG  "código")
+
+
+### Resultado de vista de las paginas
+Si se le da click en la categoría nos va a llevar a los posts con esa categoría
+
+![Imagen](../Section4/images/Video25/imagen55.PNG  "pagina")
+
+![Imagen](../Section4/images/Video25/imagen56.PNG  "pagina")
+
+
+## Capitulo 26
+
+Para este capitulo no se realizaron muchos cambios, unicamente se utilizó un código especial para poder ver las veces que ingresamos a la pagina, ademas se descargó una extension para lograr ver los querys que se ejecutan y el tiempo de respuesta
+
+### código del archivo web
+
+![Imagen](../Section4/images/Video26/imagen57.PNG  "código")
+
+![Imagen](../Section4/images/Video26/imagen58.PNG  "código")
+
+### código de la extension clockwork
+
+![Imagen](../Section4/images/Video26/imagen59.PNG  "clockwork")
+
+![Imagen](../Section4/images/Video26/imagen60.PNG  "clockwork")
+
+
+## Capitulo 27
+
+Para esta ocasión se realizó una forma mucho mas simple de agregar los datos a varias tablas y crear los post al mismos tiempo, en la carpeta seeders debemos buscar el archivo databaseSeeder y realizar las siguientes modificaciones. 
+
+### Creación de los datos de las tablas
+
+Se debe agregar el truncated para evitar que los datos que ingresamos de la siguiente forma, se repitan en las siguientes casillas de las tablas
+
+![Imagen](../Section4/images/Video27/imagen61.PNG  "código")
+
+
+### Creación de los posts
+
+Se crean los posts con la información que irán en los datos de las tablas
+
+![Imagen](../Section4/images/Video27/imagen61-2.PNG  "código")
+
+
+### Cambios en el migración 
+En el caso de posts se le agrega un espacio mas, el cual es el user_id para enlazar al usuario con el post y se le agrega el atributo unique para evitar que otro post tenga la misma información
+
+![Imagen](../Section4/images/Video27/imagen62.PNG  "código")
+
+En el caso de categories se le agrega un unique al nombre y al slug, con la intención de evitar información repetida
+
+![Imagen](../Section4/images/Video27/imagen63.PNG  "código")
+
+
+### Cambio en el archivo post.balde, Post.php y User.php
+Se agregó a la vista el usuario que diseñó el post
+
+![Imagen](../Section4/images/Video27/imagen64.PNG  "código")
+
+
+Configuración realizada post.php y user.php para que sea posible leer el usuario y mostrarlo en la vista
+
+![Imagen](../Section4/images/Video27/imagen65.PNG  "código")
+
+![Imagen](../Section4/images/Video27/imagen66.PNG  "código")
+
+
+### Comando para ejecutar todas las tablas y los post en conjunto en la maquina virtual
+
+![Imagen](../Section4/images/Video27/imagen67.PNG  "comando")
+
+### Resultado de la pagina
+
+![Imagen](../Section4/images/Video27/imagen67.PNG  "pagina")
+
+
+
+
+
+
+
+
+
 
 
