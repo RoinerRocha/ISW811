@@ -24,6 +24,11 @@
 
  Ingresar al [capitulo 27](#capitulo-27)
 
+ Ingresar al [capitulo 28](#capitulo-28)
+
+ Ingresar al [capitulo 29](#capitulo-29)
+
+ Ingresar al [capitulo 30](#capitulo-30)
 
  ## Capitulo 17
 
@@ -364,12 +369,30 @@ En el Archivo de las rutas se debe modificar el user para que ahora sea author
 ### Resultado 
 En el resultado final se puede apreciar que el username se encuentra en el post y en el url(tito.rice)
 
-![Imagen](../Section4/images/Video29/imagen80.PNG  "código")
+![Imagen](../Section4/images/Video29/imagen80.PNG  "pagina")
+
 
 ## Capitulo 30
+Para esta occasion el único cambio que se realizó fue agregar un código el cual evita que se envien muchos querys
+
+### Código 
+En la linea 14 es posible observar el código que es capaz de evitar que muchos querys sean llamados, reduciendo mucho la carga de la pagina y solo a lo que se le solicita.
+
+![Imagen](../Section4/images/Video30/imagen81.PNG  "código")
+
+### Modificación de la ruta
+Se eliminó parte del código que se encontraba en el archivo de web debido a que ya no era necesario, de esta forma el código se ve mas limpio
+
+![Imagen](../Section4/images/Video30/imagen82.PNG  "código")
+
+### Querys sin el código 
+
+![Imagen](../Section4/images/Video30/imagen83.PNG  "código")
 
 
+### Querys cons el código 
 
+![Imagen](../Section4/images/Video30/imagen84.PNG  "código")
 
 
 
