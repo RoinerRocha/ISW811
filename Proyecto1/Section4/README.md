@@ -307,7 +307,41 @@ Configuración realizada post.php y user.php para que sea posible leer el usuari
 
 ### Resultado de la pagina
 
-![Imagen](../Section4/images/Video27/imagen67.PNG  "pagina")
+![Imagen](../Section4/images/Video27/imagen68.PNG  "pagina")
+
+## Capitulo 28
+
+Para esta ocasión, se realizó la creación de un "factory", esto implica que todas las tablas con un factory asignado, creen datos "fakes", estos datos se almacenan en nuestra base de datos de forma auto generada. 
+
+### Factorys de los posts y categorys
+
+![Imagen](../Section4/images/Video28/imagen69.PNG  "código")
+
+![Imagen](../Section4/images/Video28/imagen70.PNG  "código")
+
+
+### Configuración del databaseSeeder
+Esto permite crear un usuario y que se auto generen los datos del post y las categorías
+
+![Imagen](../Section4/images/Video28/imagen71.PNG  "código")
+
+### Comandos para ejecutar los factorys
+Este comando lo que hace es que elimina los datos que se encuentren en las tablas en ese momento y vuelve a llenar las tablas con los datos "fake"
+
+![Imagen](../Section4/images/Video28/imagen72.PNG  "comando")
+
+### Resultado final
+Una vez ejecutado el comando, el resultado se ve reflejado en la base de datos, además lo puedes ver en la pagina
+
+![Imagen](../Section4/images/Video28/imagen73.PNG  "comando")
+
+![Imagen](../Section4/images/Video28/imagen74.PNG  "bd")
+
+![Imagen](../Section4/images/Video28/imagen75.PNG  "pagina")
+
+## Capitulo 29
+
+
 
 
 
