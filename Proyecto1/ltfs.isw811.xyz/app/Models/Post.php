@@ -16,5 +16,10 @@ class Post extends Model
         return 'slug';
     }
 
+    public function category()
+    {
+        return $this -> belongsTo(Category::class);
+    }
+
     //protected $fillable = ['title', 'excerpt', 'body', 'id'];
 }

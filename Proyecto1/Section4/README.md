@@ -8,7 +8,19 @@
 
  Ingresar al [capitulo 19](#capitulo-19)
 
+ Ingresar al [capitulo 20](#capitulo-20)
 
+ Ingresar al [capitulo 21](#capitulo-21)
+
+ Ingresar al [capitulo 22](#capitulo-22)
+
+ Ingresar al [capitulo 23](#capitulo-23)
+
+ Ingresar al [capitulo 24](#capitulo-24)
+
+ Ingresar al [capitulo 25](#capitulo-25)
+
+ Ingresar al [capitulo 26](#capitulo-26)
 
 
  ## Capitulo 17
@@ -168,6 +180,36 @@ En esta ocasión se le agregó un "slug" a la base de datos, para que de este mo
 ![Imagen](../Section4/images/Video23/imagen41.PNG  "BD")
 
 
+## Capitulo 24
 
+Para la ejecución de este ejercicio se creó una tabla llamada categorías y se le agrega a la tabla de post un nuevo dato llamado "category_id" el cual va a enlazar el id de la categoria con el post
+
+
+![Imagen](../Section4/images/Video24/imagen42.PNG  "código")
+
+![Imagen](../Section4/images/Video24/imagen43.PNG  "código")
+
+![Imagen](../Section4/images/Video24/imagen44.PNG  "código")
+
+
+### Vista del resultado
+
+En las paginas se puede ver que la categoria de heroes es visible para el usuario
+
+### Vista del código
+
+![Imagen](../Section4/images/Video24/imagen45.PNG  "código")
+
+![Imagen](../Section4/images/Video24/imagen46.PNG  "código")
+
+### Vista de la pagina
+
+![Imagen](../Section4/images/Video24/imagen47.PNG  "Pagina")
+
+![Imagen](../Section4/images/Video24/imagen48.PNG  "Pagina")
+
+### Vista del bd
+
+![Imagen](../Section4/images/Video24/imagen49.PNG  "BD")
 
 
