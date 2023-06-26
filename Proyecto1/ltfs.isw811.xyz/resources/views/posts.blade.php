@@ -8,7 +8,7 @@
             </h1>
 
             <p>
-                <a href="/categories/{{ $post->category->slug }}"> {{ $post->category->name }}</a>
+                Post de <a href="/categories/{{ $post->category->slug }}">{{$post->category->name}}</a> por <a href="/authors/{{ $post->author->username}}">{{ $post->author->username}}</a>
             </p>
 
             <div>

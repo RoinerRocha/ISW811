@@ -340,9 +340,33 @@ Una vez ejecutado el comando, el resultado se ve reflejado en la base de datos, 
 ![Imagen](../Section4/images/Video28/imagen75.PNG  "pagina")
 
 ## Capitulo 29
+En este capitulo se le agregó un username al usuario para que cuando se diera click, en el url se muestre el username y no el id del creador del post, 
 
+### Configuración adecuada
 
+Primero se debe ingresar un espacio en la tabla de usuarios para agregar el username
 
+![Imagen](../Section4/images/Video29/imagen76.PNG  "código")
+
+En las vistas es importante realizar este cambio para que en la pagina se pueda ver el username del usuario
+
+![Imagen](../Section4/images/Video29/imagen77.PNG  "código")
+
+### Cambios a archivos
+En el archivo Post.php es importante que la busqueda sea relacionada con el id del usuario, esto debido a que puede que no encuentre los datos correspondientes y falle
+
+![Imagen](../Section4/images/Video29/imagen78.PNG  "código")
+
+En el Archivo de las rutas se debe modificar el user para que ahora sea author
+
+![Imagen](../Section4/images/Video29/imagen79.PNG  "código")
+
+### Resultado 
+En el resultado final se puede apreciar que el username se encuentra en el post y en el url(tito.rice)
+
+![Imagen](../Section4/images/Video29/imagen80.PNG  "código")
+
+## Capitulo 30
 
 
 
