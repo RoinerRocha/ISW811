@@ -102,12 +102,18 @@ Se le añaden los css y las categorías de la base de datos a los dropdown para 
 
 ## Capitulo 35
 
-Para la elaboración de este trabajó, unicamente se modificaron los archivos "web.php" y el archivo "Post.php" Con el fin de que cuando el usuario escriba mal el url el nombre de algunas de las paginas y esta no sea detectada, se le muestre un mensaje 404
+En este capitulo se siguió con el estilizado de los dropdown, ademas de agregar muchos mas componentes los cuales hacen un poco mas sencillo el el codigo debido a que es solo importar los componentes, ocasionando asi que el codigo se vea mas limpio
 
-![Imagen](../Section3/images/video16/imagen6.PNG  "Modificación")
+### Ejemplo de los componentes 
 
-![Imagen](../Section3/images/video16/imagen7.PNG  "Modificación")
+![Imagen](../Section5//images/video35/imagen20.PNG  "Código")
 
+![Imagen](../Section5//images/video35/imagen21.PNG  "Código")
+
+
+### Resultado del código
+
+![Imagen](../Section5//images/video35/imagen22.PNG  "Pagina")
 
 
 ## Capitulo 36
