@@ -118,8 +118,14 @@ En este capitulo se siguió con el estilizado de los dropdown, ademas de agregar
 
 ## Capitulo 36
 
-Para la elaboración de este trabajó, unicamente se modificaron los archivos "web.php" y el archivo "Post.php" Con el fin de que cuando el usuario escriba mal el url el nombre de algunas de las paginas y esta no sea detectada, se le muestre un mensaje 404
+Para esta ocasión, unicamente se realizó una carga de usuarios nueva a la base de datos y se modificó un poco el dropdown para que tuviera un scroll en la lista de categorías, además cuando presionamos una categoría, nos llevará a una pagina donde se encontrará el post con el nombre del usuario que lo creó
 
-![Imagen](../Section3/images/video16/imagen6.PNG  "Modificación")
+![Imagen](../Section5//images/video36/imagen23.PNG  "Código")
 
-![Imagen](../Section3/images/video16/imagen7.PNG  "Modificación")
+![Imagen](../Section5//images/video36/imagen24.PNG  "Código")
+
+### Resultado de las paginas
+
+![Imagen](../Section5//images/video36/imagen25.PNG  "Pagina")
+
+![Imagen](../Section5//images/video36/imagen26.PNG  "Pagina")
