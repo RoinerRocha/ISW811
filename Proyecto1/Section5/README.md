@@ -84,13 +84,21 @@ Para la elaboración de este trabajó se logró que la pagina sea mucho mas din�
 
 
 ## Capitulo 34
+En este trabajó se modificó las vistas para que las categorías sean vistas desde un dropdown con la categoria actual y cuando estas sean elegidas, se muestren las las categorías en el post, la mayoría del video fue realizando y aplicando estilos a los dropdown
 
-Para la elaboración de este trabajó, unicamente se modificaron los archivos "web.php" y el archivo "Post.php" Con el fin de que cuando el usuario escriba mal el url el nombre de algunas de las paginas y esta no sea detectada, se le muestre un mensaje 404
 
-![Imagen](../Section3/images/video16/imagen6.PNG  "Modificación")
+![Imagen](../Section5//images/video34/imagen16.PNG  "Código")
 
-![Imagen](../Section3/images/video16/imagen7.PNG  "Modificación")
+![Imagen](../Section5//images/video34/imagen17.PNG  "Código")
 
+### Añdidos de css a los dropdown y asignacion de los datos de estos mismo
+Se le añaden los css y las categorías de la base de datos a los dropdown para que la pagina se vea dinámica, ademas se le añade un código el cual nos permite saber en que categoría nos encontramos  
+
+![Imagen](../Section5//images/video34/imagen18.PNG  "Código")
+
+### Reultado de la pagina
+
+![Imagen](../Section5//images/video34/imagen19.PNG  "Código")
 
 ## Capitulo 35
 
@@ -99,6 +107,7 @@ Para la elaboración de este trabajó, unicamente se modificaron los archivos "w
 ![Imagen](../Section3/images/video16/imagen6.PNG  "Modificación")
 
 ![Imagen](../Section3/images/video16/imagen7.PNG  "Modificación")
+
 
 
 ## Capitulo 36
