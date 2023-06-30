@@ -15,3 +15,8 @@
  ## Seccion 5
 
   Ingresar a [la Sección 5](./Section5/README.md)
+
+# Entregable proyecto 2
+
+ ## Seccion 6
+  Ingresar a [la Sección 6](./Section6/README.md)

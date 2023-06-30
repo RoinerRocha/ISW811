@@ -1,6 +1,6 @@
 # Entregable proyecto
 
-## Indice Sección 3
+## Indice Sección 5
 
  Ingresar al [capitulo 32](#capitulo-32)
 
