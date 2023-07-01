@@ -23,7 +23,15 @@
  ![Imagen](../Section6/images/video37/imagen3.PNG  "Resultado de la pagina")
 
 
+ ## Capitulo 38
+ 
+ Para este capitulo se realizó la modificación del código para el searchbar pero de una forma la cual es mucho mas limpia, debido a que no necesita tanto código como el del capitulo anterior y es una forma mucho mas sencilla de crear el searchbar.
 
+ ![Imagen](../Section6/images/video38/imagen4.PNG  "Resultado de la pagina")
+
+ ![Imagen](../Section6/images/video38/imagen5.PNG  "Resultado de la pagina")
+
+ ![Imagen](../Section6/images/video38/imagen6.PNG  "Resultado de la pagina")
 
 
 ## Capitulo 15
