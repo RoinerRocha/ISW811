@@ -60,5 +60,16 @@ Esta vez se modificaron ciertos aspectos para hacerlos mas dinamicos, como a la 
 
 ## Capitulo 42
 
+En esta ocasión se actualizó el desplegable de categorias como una entrada de busqueda la cual debe incluir todos los parametros de cadena de consulta que existan y sean relevantes, se realiza de la siguiente manera
+
+### Se debe configurar el archivo "category-dropdown que es donde tenemos nuestra lista de categorias"
+![Imagen](../Section7/images/video42/imagen12.PNG  "Código")
+
+### se debe configurar el codigo de la vista para que a la hora de ver la pagina podamos ver el resultado
+![Imagen](../Section7/images/video42/imagen13.PNG  "Código")
+
+
+### Resultado de la pagina
+![Imagen](../Section7/images/video42/imagen14.PNG  "Código")
  
 
