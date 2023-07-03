@@ -20,3 +20,6 @@
 
  ## Seccion 6
   Ingresar a [la Sección 6](./Section6/README.md)
+
+ ## Seccion 7
+  Ingresar a [la Sección 7](./Section7/README.md)

@@ -5,6 +5,8 @@
 
  Ingresar al [capitulo 37](#capitulo-37)
 
+ Ingresar al [capitulo 38](#capitulo-38)
+
 
 
  ## Capitulo 37
@@ -25,30 +27,11 @@
 
  ## Capitulo 38
  
- Para este capitulo se realizó la modificación del código para el searchbar pero de una forma la cual es mucho mas limpia, debido a que no necesita tanto código como el del capitulo anterior y es una forma mucho mas sencilla de crear el searchbar.
+ Para este capitulo se realizó la modificación del código para el searchbar, refactorizandolo para de una forma el código se vea mucho mas limpio, debido a que no necesita tanto código como el del capitulo anterior y es una forma mucho mas sencilla de crear el searchbar.
 
- ![Imagen](../Section6/images/video38/imagen4.PNG  "Resultado de la pagina")
+ ![Imagen](../Section6/images/video38/imagen4.PNG  "código")
 
- ![Imagen](../Section6/images/video38/imagen5.PNG  "Resultado de la pagina")
+ ![Imagen](../Section6/images/video38/imagen5.PNG  "código")
 
- ![Imagen](../Section6/images/video38/imagen6.PNG  "Resultado de la pagina")
+ ![Imagen](../Section6/images/video38/imagen6.PNG  "código")
 
-
-## Capitulo 15
-
-En esta ocacion el codigo no se vio muy alterado, en su lugar, se realizó una forma para que todo se vea muy ordenado y disminuyendo asi la cantidad de código al no tener que colocar "@section" o elementos asi, en su lugar simplemente se coloca la etiqueta "x-layout" para incluir todo el contenido de nuestra pagina
-
-
-![Imagen](../Section3/images/video15/imagen3.PNG  "Código")
-
-![Imagen](../Section3/images/video15/imagen4.PNG  "Código")
-
-![Imagen](../Section3/images/video15/imagen5.PNG  "Código")
-
-## Capitulo 16
-
-Para la elaboración de este trabajó, unicamente se modificaron los archivos "web.php" y el archivo "Post.php" Con el fin de que cuando el usuario escriba mal el url el nombre de algunas de las paginas y esta no sea detectada, se le muestre un mensaje 404
-
-![Imagen](../Section3/images/video16/imagen6.PNG  "Modificación")
-
-![Imagen](../Section3/images/video16/imagen7.PNG  "Modificación")
