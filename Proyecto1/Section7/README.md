@@ -71,5 +71,14 @@ En esta ocasión se actualizó el desplegable de categorias como una entrada de 
 
 ### Resultado de la pagina
 ![Imagen](../Section7/images/video42/imagen14.PNG  "Código")
+
+## Capitulo 43
+
+En este capitulo se arregló un bug el cual nos mandaba todas las categorias a la hora de buscar solo 1, se encerró dentro de una funcion y se le agregó el $query antes del where, para que busque el objeto especifico
+
+![Imagen](../Section7/images/video43/imagen15.PNG  "Código")
+
+### Resultado de la imagen
  
+![Imagen](../Section7/images/video43/imagen16.PNG  "Código")
 
