@@ -5,7 +5,11 @@
 
  Ingresar al [capitulo 39](#capitulo-39)
 
- Ingresar al [capitulo 40](#capitulo-40)
+ Ingresar al [capitulo 41](#capitulo-41)
+
+ Ingresar al [capitulo 42](#capitulo-42)
+
+ Ingresar al [capitulo 43](#capitulo-43)
 
 
 
