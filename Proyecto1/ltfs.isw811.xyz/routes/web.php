@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\PostsController;
 
+use App\Http\Controllers\RegisterController;
+
 use App\Models\Post;
 
 use App\Models\User;
@@ -17,8 +19,6 @@ Route::get('/', [PostsController::class, 'index'])->name ('home');
 
 Route::get('posts/{post:slug}', [PostsController::class, 'show']); 
 
-// Route::get('authors/{author:username}', function (User $author){
-//     return view('posts.index', [
-//         'posts' => $author -> posts
-//     ]);
-// });
+Route::get('register', [RegisterController::class, 'create']); 
+
+Route::post('register', [RegisterController::class, 'store']); 
