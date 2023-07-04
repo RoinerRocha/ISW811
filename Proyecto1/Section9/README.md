@@ -70,4 +70,22 @@
 
  ## Capitulo 48
 
+ En este capitulo, logramos comprender sobre como crear un aviso el cual le indique al usuario que se logró registrar con exito
+
+ ### Se agrega la clave y el mensaje para que cuando sea disparado el aviso
+
+ ![Imagen](../Section9/images/video48/imagen13.PNG  "codigo")
+
+ ### Se agrega el componente a la vista
+
+ ![Imagen](../Section9/images/video48/imagen14.PNG  "codigo")
+
+ ### En el componente se debe agregar el siguiente codigo, el cual le permite aparecer durante 4 segundos en la parte inferior derecho
+
+ ![Imagen](../Section9/images/video48/imagen15.PNG  "codigo")
+
+ ### Resultado (esquina inferior derecha)
+
+ ![Imagen](../Section9/images/video48/imagen16.PNG  "codigo")
+
 
