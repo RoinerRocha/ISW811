@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\User;
 
+use illuminate\Support\Facades\Auth;
+
 class RegisterController extends Controller
 {
     public function create()
@@ -22,7 +24,9 @@ class RegisterController extends Controller
             'password' => 'required|min:7|max:255',
         ]);
         
-        User::create($attributes);
+        $user= User::create($attributes);
+
+        auth()->login($user);
 
         return redirect('/')->with('success', 'registro exitoso');
 

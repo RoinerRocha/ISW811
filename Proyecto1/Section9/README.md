@@ -88,4 +88,36 @@
 
  ![Imagen](../Section9/images/video48/imagen16.PNG  "codigo")
 
+ ## Capitulo 49
+
+ En este capitulo se implementó un sistema de logout y que cuando el usuario se encuentre logueado el boton de registrarse desaparezca, de igual forma cuando el usuario ya no se encuentra logueado se le mostrará el boton de registrarse y loguearse.
+
+ ### Configuración del sitio web para que se muestre diferentes links dependiendo de la situación
+
+ ![Imagen](../Section9/images/video49/imagen17.PNG  "codigo")
+
+ ### Se configura el controlador del inicio de sesión, para cuando dejemos la sesion, nos dirijamos a la pagina principal
+
+ ![Imagen](../Section9/images/video49/imagen18.PNG  "codigo")
+
+ ### Lo mismo se hace con el siguiente archivo
+
+ ![Imagen](../Section9/images/video49/imagen19.PNG  "codigo")
+
+ ### En el archivo web se agrega la clase destroy, la cual nos permite dejar de estar con la sesion iniciada
+
+ ![Imagen](../Section9/images/video49/imagen20.PNG  "codigo")
+
+ ### Se agrega el logueo del usuario para que nos pueda permitir tener una sesion iniciada
+
+ ![Imagen](../Section9/images/video49/imagen21.PNG  "codigo")
+
+ ### Resultado de la pagina
+
+ ![Imagen](../Section9/images/video49/imagen22.PNG  "codigo")
+
+ ## Capitulo 50
+
+ 
+
 
