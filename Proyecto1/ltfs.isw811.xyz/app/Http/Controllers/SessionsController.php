@@ -18,14 +18,15 @@ class SessionsController extends Controller
             'password' => 'required'
         ]);
 
-        if(auth()->attempt($attributes)) {
-            session()->regenerate();
-            return redirect('/')->with('success', 'Bienvenido de vuelta');
-        }
+        if(! auth()->attempt($attributes)) {
 
-        throw ValidationException::withMessages([
-            'email' => 'Ultron-5 informa: los datos ingresados no son correctos'
-        ]);
+            throw ValidationException::withMessages([
+                'email' => 'Ultron-5 informa: los datos ingresados no son correctos'
+            ]);
+        }
+        session()->regenerate();
+        
+        return redirect('/')->with('success', 'Bienvenido de vuelta');
     }
 
     public function destroy()

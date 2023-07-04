@@ -11,6 +11,12 @@
 
  Ingresar al [capitulo 48](#capitulo-48)
 
+ Ingresar al [capitulo 49](#capitulo-49)
+
+ Ingresar al [capitulo 50](#capitulo-50)
+
+ Ingresar al [capitulo 51](#capitulo-51)
+
 
  ## Capitulo 45
 
@@ -139,5 +145,19 @@
  ### Resultado de la vista con el usuario con su inicio de sesion exitoso
 
  ![Imagen](../Section9/images/video50/imagen27.PNG  "codigo")
+
+
+ ## Capitulo 51
+
+ Para este capitulo se realizó la instalación de laravel breeze el cual es un paquete que proporciona una estructura para la autentificacion de laravel y se realizó de la siguiente forma
+
+ ```bash
+ composer require laravel/breeze --dev
+ php artisan breeze:install
+ npm install && npm run dev
+ php artisan server
+ ```
+
+ y listo, el servidor funcionará de la forma correcta y podras probar la autentificacion correctamente
 
 
