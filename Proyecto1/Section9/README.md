@@ -114,10 +114,30 @@
 
  ### Resultado de la pagina
 
- ![Imagen](../Section9/images/video49/imagen22.PNG  "codigo")
+ ![Imagen](../Section9/images/video49/imagen22.PNG  "pagina")
 
  ## Capitulo 50
 
- 
+ En este capitulo, aprendimos sobre como se puede lograr un inicio de sesion para el usuario, para poder ver todos los cambio que realizamos anteriormente
+
+ ### Se agrega a las rutas la vista del login y la clase del controlador que permite loguearnos como es debido
+
+ ![Imagen](../Section9/images/video50/imagen23.PNG  "codigo")
+
+ ### En la clase store nos permite ver si los datos ingresados son correctos, si no lo son, entonces no nos llevará a la pagina principal
+
+ ![Imagen](../Section9/images/video50/imagen24.PNG  "codigo")
+
+ ### Se copia y pega algunos elemntos de la vista para registrarse, eliminando solamente el name y el username
+
+ ![Imagen](../Section9/images/video50/imagen25.PNG  "codigo")
+
+ ### Resultado de la vista login
+
+ ![Imagen](../Section9/images/video50/imagen26.PNG  "codigo")
+
+ ### Resultado de la vista con el usuario con su inicio de sesion exitoso
+
+ ![Imagen](../Section9/images/video50/imagen27.PNG  "codigo")
 
 
