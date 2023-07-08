@@ -11,6 +11,10 @@
 
  Ingresar al [capitulo 55](#capitulo-55)
 
+ Ingresar al [capitulo 56](#capitulo-56)
+
+ Ingresar al [capitulo 57](#capitulo-57)
+
 
 
  ## Capitulo 52
@@ -49,6 +53,8 @@ En este capitulo realizamos una migración, un factory  y un model para hacer lo
 
 ![Imagen](../Section10/images/video53/imagen7.PNG  "Código")
 
+
+
 ## Capitulo 54
 
 Esta vez se implementaron los comentarios dinamicos en un post publicado
@@ -77,6 +83,8 @@ Esta vez se implementaron los comentarios dinamicos en un post publicado
 
 ![Imagen](../Section10/images/video54/imagen13.PNG  "Código")
 
+
+
 ## Capitulo 55
 
 En este capitulo se construyo una caja en la cual los usuarios podrán escribir sus comentarios sobre el post que seleccionaron
@@ -92,6 +100,8 @@ En este capitulo se construyo una caja en la cual los usuarios podrán escribir 
 ### resultado de la pagina
 
 ![Imagen](../Section10/images/video55/imagen17.PNG  "pagina")
+
+
 
 ## Capitulo 56
 
@@ -122,6 +132,24 @@ En este capitulo se le agregó el dinamismo de los comentarios, esto debido a qu
 ## Resultado final de un comentario con una cuenta creada y sin loguearse(para que no se muestre la caja de agregar un comentario)
 
 ![Imagen](../Section10/images/video56/imagen24.PNG  "pagina")
+
+
+
+## Capitulo 57
+
+En este capitulo se realizaron varios cambios pequeños, los cuales solo tendrían como función, limpiar un poco el código
+
+### Se crea un nuevo post en el cual se va a encontrar la caja para hacer comentarios y se le importó el componente del boton
+
+![Imagen](../Section10/images/video57/imagen25.PNG  "Código")
+
+### Codigo del componente del boton
+
+![Imagen](../Section10/images/video57/imagen26.PNG  "Código")
+
+### Se incluye de la siguiente forma
+
+![Imagen](../Section10/images/video57/imagen27.PNG  "Código")
 
 
 
