@@ -93,5 +93,35 @@ En este capitulo se construyo una caja en la cual los usuarios podrán escribir 
 
 ![Imagen](../Section10/images/video55/imagen17.PNG  "pagina")
 
+## Capitulo 56
+
+En este capitulo se le agregó el dinamismo de los comentarios, esto debido a que nuetra pagina ya no muestra comentarios quemados sino que muestra los que se encuentran en la base de datos
+
+### Se debe configurar el archivo de web.php para agregar los post de los comentarios
+
+![Imagen](../Section10/images/video56/imagen18.PNG  "Código")
+
+### Se configura la pagina de forma adecuada para cuando el usuario no se encuentre loguedo no puede comentar hasta que se registre o se loguee
+
+![Imagen](../Section10/images/video56/imagen19.PNG  "Código")
+
+### Se debe configurar el controlador de los comentarios para que no se encuentren fallos en la base de datos
+
+![Imagen](../Section10/images/video56/imagen20.PNG  "Código")
+
+### Se configura la fecha de publicacion de una forma mas elegible
+
+![Imagen](../Section10/images/video56/imagen21.PNG  "Código")
+
+### Configuracion adecuada para los archivos de comment.php y Appservice para evitar que la pagina falle 
+
+![Imagen](../Section10/images/video56/imagen22.PNG  "Código")
+
+![Imagen](../Section10/images/video56/imagen23.PNG  "Código")
+
+## Resultado final de un comentario con una cuenta creada y sin loguearse(para que no se muestre la caja de agregar un comentario)
+
+![Imagen](../Section10/images/video56/imagen24.PNG  "pagina")
+
 
 
