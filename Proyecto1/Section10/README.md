@@ -79,4 +79,19 @@ Esta vez se implementaron los comentarios dinamicos en un post publicado
 
 ## Capitulo 55
 
+En este capitulo se construyo una caja en la cual los usuarios podrán escribir sus comentarios sobre el post que seleccionaron
+
+### Se realiza el html correspondiente asignandole todos los estilos necesarios que se asignaron tambien en un nuevo componente llamado panel
+
+![Imagen](../Section10/images/video55/imagen14.PNG  "Código")
+
+![Imagen](../Section10/images/video55/imagen15.PNG  "Código")
+
+![Imagen](../Section10/images/video55/imagen16.PNG  "Código")
+
+### resultado de la pagina
+
+![Imagen](../Section10/images/video55/imagen17.PNG  "pagina")
+
+
 
