@@ -18,6 +18,22 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 use App\Models\Category;
 
+Route::get('ping', function () {
+    $mailchimp = new \MailchimpMarketing\ApiClient();
+
+    $mailchimp->setConfig([
+        'apiKey' => config('services.mailchimp.key'),
+        'server' => 'us21'
+    ]);
+
+    $response = $mailchimp->lists->addListMember('413be1b89d', [
+        'email_address' => 'rochabozaroiner@gmail.com',
+        'status' => 'subscribed'
+    ]);
+
+    ddd($response);
+}); 
+
 
 Route::get('/', [PostsController::class, 'index'])->name ('home'); 
 
