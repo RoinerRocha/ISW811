@@ -18,7 +18,9 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 use App\Models\Category;
 
-Route::get('ping', function () {
+Route::post('newsletter', function () {
+    request()->validate(['email' => 'required|email']);
+
     $mailchimp = new \MailchimpMarketing\ApiClient();
 
     $mailchimp->setConfig([
@@ -26,12 +28,21 @@ Route::get('ping', function () {
         'server' => 'us21'
     ]);
 
-    $response = $mailchimp->lists->addListMember('413be1b89d', [
-        'email_address' => 'rochabozaroiner@gmail.com',
-        'status' => 'subscribed'
-    ]);
+    try {
 
-    ddd($response);
+        $response = $mailchimp->lists->addListMember('413be1b89d', [
+            'email_address' => request('email'),
+            'status' => 'subscribed'
+        ]);
+    } catch (\Exception $e) {
+        throw \Illuminate\Validation\ValidationException::withMessages ([
+            'email' => 'Este email no se puede utilizar'
+        ]);
+    }
+
+
+    return redirect('/')
+        ->with('success', 'Ahora eres miembro de nuestro boletín');
 }); 
 
 

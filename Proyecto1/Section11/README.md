@@ -41,25 +41,23 @@
 
 ## Capitulo 59
 
-En este capitulo realizamos una migración, un factory  y un model para hacer los comentarios dinámicos, mostrando los comentarios que se encuentran en la base de datos, para esto realizamos lo siguiente:
+Para este capitulo aprendimos sobre como hacer que en nuestro footer, podamos registrar un nuevo correo
 
-### Con el comando php artisan:make model Comment -mfc para crear el model, el factory y el controller
+### Resultado del codigo para que se nos mande un mensaje para saber si se puede usar ese email o no
 
-![Imagen](../Section10/images/video53/imagen4.PNG  "Código")
+![Imagen](../Section11/images/video59/imagen6.PNG  "Código")
 
-### En la migración de los comentarios, debemos asignarle un constrained y un cascadeOnDelete para que se asocie al id del usuario y cuando el usuario se elimine, el comentario también(Usé un codigo que encotré en los comentarios debido a que el del video no me funcionó y no me mostraba los resultados en la base de datos)
-
-![Imagen](../Section10/images/video53/imagen5.PNG  "Código")
-
-### Con este nuevo codigo el resultado si se puede observar en la BD
-
-![Imagen](../Section10/images/video53/imagen6.PNG  "Código")
-
-### Se le agrega lo mismo a la migracion de los posts
-
-![Imagen](../Section10/images/video53/imagen7.PNG  "Código")
+### Se modifica el footer para obtener el email que el usuario ingresa 
 
 
+![Imagen](../Section11/images/video59/imagen7.PNG  "Código")
+
+
+### A la hora de ingresar 2 correos mas, nos aumentan el numero de usuarios en la campaña
+
+![Imagen](../Section11/images/video59/imagen8.PNG  "Pagina")
+
+## Capitulo 60
 
 
 
