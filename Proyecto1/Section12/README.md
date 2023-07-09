@@ -1,108 +1,58 @@
 # Entregable proyecto #3
 
-## Indice Sección 11
+## Indice Sección 12
 
 
- Ingresar al [capitulo 58](#capitulo-58)
+ Ingresar al [capitulo 62](#capitulo-62)
 
- Ingresar al [capitulo 59](#capitulo-59)
+ Ingresar al [capitulo 63](#capitulo-63)
 
- Ingresar al [capitulo 60](#capitulo-60)
+ Ingresar al [capitulo 64](#capitulo-64)
 
- Ingresar al [capitulo 61](#capitulo-61)
+ Ingresar al [capitulo 65](#capitulo-65)
 
+ Ingresar al [capitulo 66](#capitulo-66)
 
+ Ingresar al [capitulo 67](#capitulo-67)
 
- ## Capitulo 58
+ Ingresar al [capitulo 68](#capitulo-68)
 
- En esta ocasión realizamos una cuenta en mailchimp para utilizar una apikey que nos provee ese sitio y se realizó una animación la cual da mas fluidez a la hora de ir de un sitio a otro en la pagina
-
- ### Estilos agregados 
-
- ![Imagen](../Section11/images/video58/imagen1.PNG  "Código")
-
- ### Se agrega el token de mailchimp al archivo .env
-
- ![Imagen](../Section11/images/video58/imagen2.PNG  "Código")
-
- ### Se configura apropiadamente el mailchimp en los servicios
-
- ![Imagen](../Section11/images/video58/imagen3.PNG  "Código")
-
- ### Se configura la ruta en el archivo web para agregar a un participante a una campaña y ver si la api funciona correctamente
-
- ![Imagen](../Section11/images/video58/imagen4.PNG  "Código")
-
- ### Resultado de la pagina (Si funciona)
-
- ![Imagen](../Section11/images/video58/imagen5.PNG  "Pagina")
+ Ingresar al [capitulo 69](#capitulo-69)
 
 
 
-## Capitulo 59
+ ## Capitulo 62
 
-Para este capitulo aprendimos sobre como hacer que en nuestro footer, podamos registrar un nuevo correo
+ En esta aprendimos sobre como hacer que un usuario obtenga el rol de administrador 
 
-### Resultado del codigo para que se nos mande un mensaje para saber si se puede usar ese email o no
+ ### Primero debemos agregar middleware del archivo administrador en el archivo del kernel
 
-![Imagen](../Section11/images/video59/imagen6.PNG  "Código")
+ ![Imagen](../Section12/images/video62/imagen1.PNG  "Código")
 
-### Se modifica el footer para obtener el email que el usuario ingresa 
+ ### Se codifica el archivo del administrador de forma que solo deje acceder al usuario que le asignemos
 
+ ![Imagen](../Section12/images/video62/imagen2.PNG  "Código")
 
-![Imagen](../Section11/images/video59/imagen7.PNG  "Código")
+ ### Configuramos la vista para el administrador y ver si todo funciona bien
 
+ ![Imagen](../Section12/images/video62/imagen3.PNG  "Código")
 
-### A la hora de ingresar 2 correos mas, nos aumentan el numero de usuarios en la campaña
+ ### Se configura el controlador del post con la vista que creamos
 
-![Imagen](../Section11/images/video59/imagen8.PNG  "Pagina")
+ ![Imagen](../Section12/images/video62/imagen4.PNG  "Código")
 
-## Capitulo 60
+ ### Se configura la ruta adecuadamente con el middleware que añadimos
 
-En este capitulo se distribuyo el codigo que se encontraba en el archivo web
+ ![Imagen](../Section12/images/video62/imagen5.PNG  "Código")
 
-### Se debe agregar nuestro id en el archivo .env
+ ### Resultado
 
-![Imagen](../Section11/images/video60/imagen9.PNG  "Código")
+ ![Imagen](../Section12/images/video62/imagen6.PNG  "Código")
 
-### Se llama al id desde el .env en el archivo de los servicios
-
-![Imagen](../Section11/images/video60/imagen10.PNG  "Código")
-
-### En un nuevo archivo del controlador, colocamos parte del codigo que usamos en el archivo web
-
-![Imagen](../Section11/images/video60/imagen11.PNG  "Código")
-
-### Creamos un archivo nuevo nombrado Newsletter.php
-
-![Imagen](../Section11/images/video60/imagen12.PNG  "Código")
-
-### El codigo del archivo wen ahora queda mas limpio
-
-![Imagen](../Section11/images/video60/imagen13.PNG  "Código")
+## Capitulo 63
+ 
 
 
-## Capitulo 61
-
-En este capitulo logramos comprender como hacer un contenedor
-
-### Modificar el proveedor de servicio
-
-![Imagen](../Section11/images/video61/imagen14.PNG  "Código")
-
-### Se crea una interfaz 
-
-![Imagen](../Section11/images/video61/imagen15.PNG  "Código")
-
-### Se crea un archivo llamdo ConvertKit
-
-![Imagen](../Section11/images/video61/imagen16.PNG  "Código")
-
-## Se modifican los demas archivos y asi se ve el resultado final, debido a que el contener quedó listo y preparado, siendo asi un poco mas dinamico
-
-![Imagen](../Section11/images/video61/imagen17.PNG  "Código")
-
-![Imagen](../Section11/images/video61/imagen18.PNG  "Código")
 
 
 
