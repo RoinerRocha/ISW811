@@ -50,6 +50,27 @@
  ![Imagen](../Section12/images/video62/imagen6.PNG  "Código")
 
 ## Capitulo 63
+
+En este capitulo creamos un formulario para hacer un post y se le añadio la funcionalidad respectiva
+
+### Se crea un formulario para crear posts y se agregan las categorias y los espacios asignados
+
+![Imagen](../Section12/images/video63/imagen7.PNG  "Código")
+
+### Asiganmos los campos del controlador para publicarlos en los posts
+
+![Imagen](../Section12/images/video63/imagen8.PNG  "Código")
+
+### Creamos la ruta para que se almacenen los datos que el usuario inserte en el formulario
+
+![Imagen](../Section12/images/video63/imagen9.PNG  "Código")
+
+### Resultados
+
+![Imagen](../Section12/images/video63/imagen10.PNG  "Código")
+
+![Imagen](../Section12/images/video63/imagen11.PNG  "Código")
+
  
 
 
