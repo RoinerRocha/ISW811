@@ -29,8 +29,7 @@
             </div>
 
             <div class="flex justify-end mt-6 pt-6 border-t border-gray-200">
-                <x-submit-button>publicar</x-submit-button>
-
+                <x-form.button>Publish</x-form.button>
             </div>
 
         </form>

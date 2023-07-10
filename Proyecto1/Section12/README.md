@@ -71,6 +71,59 @@ En este capitulo creamos un formulario para hacer un post y se le añadio la fun
 
 ![Imagen](../Section12/images/video63/imagen11.PNG  "Código")
 
+## Capitulo 64
+
+Para este capitulo aprendimos sobre como colocar imagenes y insertarlas en la base de datos de la siguiente forma
+
+### Agregamos el espacio para agregar la foto que deseamos insertar
+
+![Imagen](../Section12/images/video64/imagen12.PNG  "Código")
+
+### En el archivo de filesystem cambiamos un poco el codigo para que estas se almacenen en el folder de public y lo mismo lo hacemos en el archivo .env
+
+![Imagen](../Section12/images/video64/imagen13.PNG  "Código")
+
+![Imagen](../Section12/images/video64/imagen14.PNG  "Código")
+
+### En en controlador del post, le asignamos el espacio para agregar la imagen, lo mismo hacemos en el archivo de la migracion 
+
+![Imagen](../Section12/images/video64/imagen15.PNG  "Código")
+
+![Imagen](../Section12/images/video64/imagen16.PNG  "Código")
+
+### Se configura la ruta para mostrar las imagenes en la pagina
+
+![Imagen](../Section12/images/video64/imagen17.PNG  "Código")
+
+### Resultado de las paginas con las imagenes
+
+![Imagen](../Section12/images/video64/imagen18.PNG  "Código")
+
+![Imagen](../Section12/images/video64/imagen19.PNG  "Código")
+
+## Capitulo 65 
+Para este capitulo unicamente se limpio un poco mas el codigo del archivo create, moviendo los componentes del formulario como el body, title, entre otros, a un archivo por aparte para solo importarlo en el archivo de la pagina
+
+### Codigo modificado para asignarle el $name el cual nos detecta el dato que queremos insertarle
+
+![Imagen](../Section12/images/video65/imagen21.PNG  "Código")
+
+![Imagen](../Section12/images/video65/imagen22.PNG  "Código")
+
+![Imagen](../Section12/images/video65/imagen23.PNG  "Código")
+
+![Imagen](../Section12/images/video65/imagen24.PNG  "Código")
+
+![Imagen](../Section12/images/video65/imagen25.PNG  "Código")
+
+### Resultado final
+
+![Imagen](../Section12/images/video65/imagen26.PNG  "Código")
+
+## Capitulo 66
+
+
+
  
 
 
