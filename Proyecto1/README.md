@@ -32,5 +32,11 @@
 
 # Entregable proyecto 3
 
- ## Seccion 9 
+ ## Seccion 10 
   Ingresar a [la Sección 10](./Section10/README.md)
+
+ ## Seccion 11 
+  Ingresar a [la Sección 11](./Section11/README.md)
+
+ ## Seccion 12 
+  Ingresar a [la Sección 12](./Section12/README.md)

@@ -12,6 +12,8 @@
 
  Ingresar al [capitulo 36](#capitulo-36)
 
+ Regresar [Al indice principal](../README.md)
+
 
 
  ## Capitulo 31

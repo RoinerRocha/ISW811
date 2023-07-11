@@ -30,6 +30,8 @@
 
  Ingresar al [capitulo 30](#capitulo-30)
 
+ Regresar [Al indice principal](../README.md)
+
  ## Capitulo 17
 
 En esta ocasión se realizó la inspección y creación de la base de datos, debido a que muchos de los pasos que se muestran en el video como el "migrate" ya los habiamos realizado en clases, actualmente poseemos la base de datos en una nueva maquina virtual y en el video se nos enseñó como acceder a la base de datos creadas con "user (nombre de la base de datos);" y saber cuantas tablas tenemos con "show tables;", ademas descargamos una aplicacion para el dominio de la base de datos en el futuro

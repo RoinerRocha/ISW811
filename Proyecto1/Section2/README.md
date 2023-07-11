@@ -20,6 +20,8 @@
 
  Ingresar al [capitulo 13](#capitulo-13)
 
+ Regresar [Al indice principal](../README.md)
+
 
  ## capitulo 5
 

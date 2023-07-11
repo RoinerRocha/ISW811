@@ -19,6 +19,10 @@
 
  Ingresar al [capitulo 69](#capitulo-69)
 
+ Ingresar al [capitulo 70](#capitulo-70)
+ 
+ Regresar [Al indice principal](../README.md)
+
 
 
  ## Capitulo 62
@@ -178,6 +182,40 @@ Para este capitulo realizamos una modificacion a la vista de moderador, logrando
 ### En la pagina principal podremos verlo ya editado
 
 ![Imagen](../Section12/images/video67/imagen40.PNG  "Código")
+
+
+## Capitulo 68
+
+En este capitulo realizamos limpieza sobre el codigo en el controlador del administrador, minimizando el codigo por mucho
+
+### resultado
+
+![Imagen](../Section12/images/video68/imagen41.PNG  "Código")
+
+### Se creo una funcion llamada validate con todos los datos para que en las demas funciones como las del almacenar, unicamente tengamos que llamar a esa funcion para que haga el trabajo
+
+![Imagen](../Section12/images/video68/imagen42.PNG  "Código")
+
+
+## Capitulo 69
+
+Para este capitulo, extendimos un poco mas el tema de la autorización, achicando un poco mas el codigo y permitiendo que solo el administrador, posea el acceso directo a las configuraciones del post y bloquear a los usuarios normales el acceso de este
+
+### Se configura el administrador con un GATE y un BLADE el cual va a permitir que solo los usuarios con administrador, logren entrar a las configuraciones del post
+
+![Imagen](../Section12/images/video69/imagen43.PNG  "Código")
+
+### Se configura el index principal para que los botones que nos llevan a las configuraciones, solo sean vistas por el administrador
+
+![Imagen](../Section12/images/video69/imagen44.PNG  "Código")
+
+### Se configuran las rutas del administrador en una sola en lugar de las 7 que poseiamos antes
+
+![Imagen](../Section12/images/video69/imagen45.PNG  "Código")
+
+## Capitulo 70
+
+Unicamente se dan las conclusiones del curso y todo lo que aprendimos en el proceso, cosas como eventos, los http test, notificaciones y el uso de apis 
 
 
 
