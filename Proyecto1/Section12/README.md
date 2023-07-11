@@ -122,6 +122,63 @@ Para este capitulo unicamente se limpio un poco mas el codigo del archivo create
 
 ## Capitulo 66
 
+En este capitulo realizamos modificaciones al panel de realizar un post, dandole un nuevo diseño
+
+### Se realizan diferentes componentes y se importan en el lugar de los archivos correspondientes, dejando asi el codigo de la pagina principal, mucho mas limpio y agradable a la vista
+
+![Imagen](../Section12/images/video66/imagen27.PNG  "Código")
+
+![Imagen](../Section12/images/video66/imagen28.PNG  "Código")
+
+![Imagen](../Section12/images/video66/imagen29.PNG  "Código")
+
+![Imagen](../Section12/images/video66/imagen30.PNG  "Código")
+
+### Codigo de la pagina 
+
+![Imagen](../Section12/images/video66/imagen31.PNG  "Código")
+
+### Codigo del dropdown
+
+![Imagen](../Section12/images/video66/imagen32.PNG  "Código")
+
+### Codigo de la pagina
+
+![Imagen](../Section12/images/video66/imagen33.PNG  "Código")
+
+
+## Capitulo 67
+
+Para este capitulo realizamos una modificacion a la vista de moderador, logrando asi poder editar los posts, verlos y eliminarlos. Entre los cambios mas importantes podemos encontrar
+
+### Creacion de los routes para lograr editar, eliminar o movernos a las paginas de editar el contenido
+
+![Imagen](../Section12/images/video67/imagen34.PNG  "Código")
+
+### Crear las funciones que nos permitirán modificar o eliminar  los posts que creemos
+
+![Imagen](../Section12/images/video67/imagen35.PNG  "Código")
+
+### Creacion de un index para ver todos los posts que hay hasta el momento y las opciones para editarlo o eliminarlo
+
+![Imagen](../Section12/images/video67/imagen36.PNG  "Código")
+
+### Creacion de la pagina para editar el post
+
+![Imagen](../Section12/images/video67/imagen37.PNG  "Código")
+
+### Resltados del dashboard
+
+![Imagen](../Section12/images/video67/imagen38.PNG  "Código")
+
+### Se edita un articulo 
+
+![Imagen](../Section12/images/video67/imagen39.PNG  "Código")
+
+### En la pagina principal podremos verlo ya editado
+
+![Imagen](../Section12/images/video67/imagen40.PNG  "Código")
+
 
 
  
